@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xbox 360 Development Guide</title><link>https://xb360.dev/</link><description>Recent content on Xbox 360 Development Guide</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 24 Jan 2024 18:09:49 -0800</lastBuildDate><atom:link href="https://xb360.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://xb360.dev/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xb360.dev/introduction/</guid><description>&lt;p>Welcome to the Xbox 360 Development Guide!&lt;/p>
+&lt;h1 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h1>
+&lt;p>The Xbox 360 marked a pivotal era in console development, bridging Standard Definition and High-Definition gaming, and pioneering digital distribution and online multiplayer infrastructure. despite its significance, the official development workflow for Xbox 360 titles (games) remains largely undocumented publicly due to licensing restrictions and the proprietary nature of its tools.&lt;/p>
+&lt;h1 id="development-tools">
+ Development Tools
+ &lt;a class="anchor" href="#development-tools">#&lt;/a>
+&lt;/h1>
+&lt;p>Xbox 360 title development relied on the Xbox 360 SDK (Software Development Kit), which was exclusively available to licensed developers through Microsoft’s Xbox Development Kit (XDK) program. Developers using the official SDK had access to several internal tools and sample projects, intended to streamline development on retail and debug units.&lt;/p></description></item><item><title>Development Environment</title><link>https://xb360.dev/development-environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xb360.dev/development-environment/</guid><description>&lt;h1 id="development-environment">
+ Development Environment
+ &lt;a class="anchor" href="#development-environment">#&lt;/a>
+&lt;/h1>
+&lt;p>In this chapter we will discuss the necessary tools and setup required to begin development of Xbox 360 titles.&lt;/p>
+&lt;h1 id="platform">
+ Platform
+ &lt;a class="anchor" href="#platform">#&lt;/a>
+&lt;/h1>
+&lt;p>Microsoft being its creator, the Xbox 360 SDK requires &lt;strong>Windows&lt;/strong> to be installed, and more specifically &lt;strong>Windows XP or above&lt;/strong>. For our purposes we will be using &lt;strong>Windows 7&lt;/strong>, as it provides more modern security features that XP and is significantly more stable than Vista.&lt;/p></description></item><item><title>General Structure</title><link>https://xb360.dev/drawing-a-triangle/general-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xb360.dev/drawing-a-triangle/general-structure/</guid><description>&lt;h1 id="general-structure">
+ General Structure
+ &lt;a class="anchor" href="#general-structure">#&lt;/a>
+&lt;/h1>
+&lt;p>In this section, we discuss the general structure of our game which we will use as a base for future chapters.&lt;/p>
+&lt;h1 id="entry-point">
+ Entry Point
+ &lt;a class="anchor" href="#entry-point">#&lt;/a>
+&lt;/h1>
+&lt;p>On Xbox 360, the runtime environment looks for a function named &lt;code>main&lt;/code> with no arguments and a &lt;code>__cdecl&lt;/code>$^\text{[1]}$ calling convention as the application’s entry point. This reflects the fixed execution model of the Xbox’s OS, which—unlike desktop Windows—does not provide command-line arguments or environment variables. This is similar to how embedded or tool-style Windows programs operate, as seen in Microsoft&amp;rsquo;s own IP Helper API examples$^\text{[2]}$.&lt;/p></description></item><item><title>Debugging</title><link>https://xb360.dev/drawing-a-triangle/debugging/</link><pubDate>Wed, 24 Jan 2024 18:09:49 -0800</pubDate><guid>https://xb360.dev/drawing-a-triangle/debugging/</guid><description>&lt;h1 id="debugging">
+ Debugging
+ &lt;a class="anchor" href="#debugging">#&lt;/a>
+&lt;/h1>
+&lt;p>Debugging is a luxury, granted only to those originally registered developers who obtained an official XDK (and hence SDK). A few researchers have found that writing out logging files to disk seems to be just as useful.&lt;/p>
+&lt;p>Although this method would not allow a developer to view the call stack, peak at variables and their values nor step through breakpoints, it definitely can be used to provide insightful information.&lt;/p></description></item></channel></rss>

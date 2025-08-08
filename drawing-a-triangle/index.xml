@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Drawing a Triangle on Xbox 360 Development Guide</title><link>https://xb360.dev/drawing-a-triangle/</link><description>Recent content in Drawing a Triangle on Xbox 360 Development Guide</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 24 Jan 2024 18:09:49 -0800</lastBuildDate><atom:link href="https://xb360.dev/drawing-a-triangle/index.xml" rel="self" type="application/rss+xml"/><item><title>General Structure</title><link>https://xb360.dev/drawing-a-triangle/general-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xb360.dev/drawing-a-triangle/general-structure/</guid><description>&lt;h1 id="general-structure">
+ General Structure
+ &lt;a class="anchor" href="#general-structure">#&lt;/a>
+&lt;/h1>
+&lt;p>In this section, we discuss the general structure of our game which we will use as a base for future chapters.&lt;/p>
+&lt;h1 id="entry-point">
+ Entry Point
+ &lt;a class="anchor" href="#entry-point">#&lt;/a>
+&lt;/h1>
+&lt;p>On Xbox 360, the runtime environment looks for a function named &lt;code>main&lt;/code> with no arguments and a &lt;code>__cdecl&lt;/code>$^\text{[1]}$ calling convention as the application’s entry point. This reflects the fixed execution model of the Xbox’s OS, which—unlike desktop Windows—does not provide command-line arguments or environment variables. This is similar to how embedded or tool-style Windows programs operate, as seen in Microsoft&amp;rsquo;s own IP Helper API examples$^\text{[2]}$.&lt;/p></description></item><item><title>Debugging</title><link>https://xb360.dev/drawing-a-triangle/debugging/</link><pubDate>Wed, 24 Jan 2024 18:09:49 -0800</pubDate><guid>https://xb360.dev/drawing-a-triangle/debugging/</guid><description>&lt;h1 id="debugging">
+ Debugging
+ &lt;a class="anchor" href="#debugging">#&lt;/a>
+&lt;/h1>
+&lt;p>Debugging is a luxury, granted only to those originally registered developers who obtained an official XDK (and hence SDK). A few researchers have found that writing out logging files to disk seems to be just as useful.&lt;/p>
+&lt;p>Although this method would not allow a developer to view the call stack, peak at variables and their values nor step through breakpoints, it definitely can be used to provide insightful information.&lt;/p></description></item></channel></rss>
