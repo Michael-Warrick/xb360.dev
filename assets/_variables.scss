@@ -1,0 +1,13 @@
+@mixin theme-dark {
+  --gray-100: #2e2e2e;
+  --gray-200: #3c3c3c;
+  --gray-500: #696969;
+
+  --color-link: #84b2ff;
+  --color-visited-link: #b88dff;
+
+  --body-background: #000000 !important;
+  --body-font-color: #ffffff;
+
+  --icon-filter: brightness(0) invert(1);
+}

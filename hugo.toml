@@ -1,0 +1,37 @@
+baseURL = "https://xb360.dev/"
+languageCode = "en-us"
+title = "Xbox 360 Development Guide"
+theme = "hugo-book"
+
+# Enable relative URLs (helpful for local testing or GitHub Pages)
+relativeURLs = true
+canonifyURLs = true
+
+# Set markup behavior
+[markup]
+  [markup.goldmark]
+    [markup.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      footnote = true
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+# Sidebar and theme settings
+[params]
+  math = true
+  BookTheme = "auto"           # "light", "dark", or "auto"
+  bookFlatSection = false
+  BookToC = true               # Show table of contents on right side
+  BookMenuBundle = "main"      # Enable folder-based sidebar menus
+  BookSection = "*"            # Show all content sections
+  BookRepo = "https://github.com/Michael-Warrick/xb360.dev"
+  BookEditPath = "content/"
+  BookDateFormat = "2006-01-02"
+
+# Optional: Enable GitHub-style breadcrumbs
+[outputs]
+  home = [ "HTML", "RSS"]
