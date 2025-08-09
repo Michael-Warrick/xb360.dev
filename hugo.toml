@@ -1,6 +1,6 @@
 baseURL = "https://xb360.dev/"
 languageCode = "en-us"
-title = "Xbox 360 Development Guide"
+title = "Unofficial Xbox 360 Development Guide"
 theme = "hugo-book"
 
 # Enable relative URLs (helpful for local testing or GitHub Pages)
