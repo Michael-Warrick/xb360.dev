@@ -1,6 +1,7 @@
 +++
 date = 2024-01-24T18:09:49-08:00
-title = ''
+title = 'Home'
+docs = true
 weight = 0
 [params]
   math = false
@@ -10,6 +11,23 @@ weight = 0
 
 This site documents and preserves Xbox 360 development techniques for educational purposes.
 
-Start with [Introduction](/introduction/) or browse the sidebar.
+If you are ready to begin with the tutorial, head on over to the [Introduction](/introduction/) chapter.
+
 > [!WARNING]
-> This work is an independent educational and preservation project and is not affiliated with, endorsed by, or sponsored by Microsoft Corporation. Xbox, Xbox 360, and Kinect are trademarks of Microsoft Corporation. All other trademarks are the property of their respective owners.
+> ⚠️ This website is currently under construction and hence many sections may be very incomplete.
+
+<!-- Inserting raw HTML here for the footer, couldn't find any other work-around -->
+{{< html >}}
+<footer class="book-footer">
+  <p>
+    © 
+    <span id="copyright">
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span>
+    Michael Warrick — Original content licensed under CC BY-NC-SA 4.0.<br>
+    This work is an independent educational and preservation project, not affiliated with, endorsed by, or sponsored by
+    Microsoft Corporation. Xbox, Xbox 360, and Kinect are trademarks of Microsoft Corporation. All other trademarks are the property of their
+    respective owners.
+  </p>
+</footer>
+{{< /html >}}

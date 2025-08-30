@@ -23,6 +23,7 @@ canonifyURLs = true
 # Sidebar and theme settings
 [params]
   math = true
+  BookFavicon = "favicon.svg"
   BookTheme = "auto"           # "light", "dark", or "auto"
   bookFlatSection = false
   BookToC = true               # Show table of contents on right side
